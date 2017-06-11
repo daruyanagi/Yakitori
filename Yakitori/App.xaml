@@ -4,6 +4,19 @@
              xmlns:local="clr-namespace:Yakitori"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
     </Application.Resources>
+    
+    <JumpList.JumpList>
+        <JumpList>
+            <JumpTask Title="Active Window" 
+                      Arguments="/a" />
+            <JumpTask Title="Desktop" 
+                      Arguments="/d"/>
+            <JumpTask Title="Regeon" 
+                      Arguments="/r" />
+            <JumpTask Title="Settings" 
+                      Arguments="/s" />
+        </JumpList>
+    </JumpList.JumpList>
 </Application>
