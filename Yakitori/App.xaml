@@ -2,21 +2,26 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Yakitori"
-             StartupUri="MainWindow.xaml">
+             >
     <Application.Resources>
-        
+
     </Application.Resources>
-    
+
     <JumpList.JumpList>
         <JumpList>
-            <JumpTask Title="Active Window" 
+            <JumpTask Title="Active Window (Clipboard)" 
                       Arguments="/a" />
-            <JumpTask Title="Desktop" 
+            <JumpTask Title="Desktop (Clipboard)" 
                       Arguments="/d"/>
-            <JumpTask Title="Regeon" 
+            <JumpTask Title="Desktop (File)" 
+                      Arguments="/f" />
+            <JumpTask Title="Regeon (Clipboard)" 
                       Arguments="/r" />
-            <JumpTask Title="Settings" 
+            <JumpTask Title="Save Clipboard Image to Folder" 
                       Arguments="/s" />
+            <JumpTask Title="Open Folder" 
+                      Arguments="/o" />
+            <JumpTask Title="Settings" />
         </JumpList>
     </JumpList.JumpList>
 </Application>
