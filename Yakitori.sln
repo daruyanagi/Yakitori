@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yakitori", "Yakitori\Yakitori.csproj", "{DC0D4E55-55D6-427C-8E48-D7D78C160346}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yakitori.WPF", "Yakitori.WPF\Yakitori.WPF.csproj", "{5E225B7E-3870-448E-B023-48215AAE184B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC0D4E55-55D6-427C-8E48-D7D78C160346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC0D4E55-55D6-427C-8E48-D7D78C160346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC0D4E55-55D6-427C-8E48-D7D78C160346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC0D4E55-55D6-427C-8E48-D7D78C160346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E225B7E-3870-448E-B023-48215AAE184B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E225B7E-3870-448E-B023-48215AAE184B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E225B7E-3870-448E-B023-48215AAE184B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E225B7E-3870-448E-B023-48215AAE184B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABFB4D7E-F596-49CB-930C-714492177F45}
 	EndGlobalSection
 EndGlobal

@@ -12,16 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Yakitori.Views
+namespace Yakitori.WPF.Views
 {
-    /// <summary>
-    /// SettingsWindow.xaml の相互作用ロジック
-    /// </summary>
-    public partial class SettingsWindow : Window
-    {
-        public SettingsWindow()
-        {
-            InitializeComponent();
-        }
-    }
+	/// <summary>
+	/// CountDownWindow.xaml の相互作用ロジック
+	/// </summary>
+	public partial class CountDownWindow : Window
+	{
+		public CountDownWindow()
+		{
+			InitializeComponent();
+		}
+	}
 }

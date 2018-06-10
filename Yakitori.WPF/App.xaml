@@ -1,0 +1,61 @@
+﻿<Application x:Class="Yakitori.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Yakitori.WPF">
+    <Application.Resources>
+         
+    </Application.Resources>
+
+
+	<JumpList.JumpList>
+		<JumpList>
+			<JumpTask Title="Desktop" 
+					  CustomCategory="Capture and Save to Clipboard"
+                      Arguments="/d"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="105"/>
+			<JumpTask Title="Active Window"
+					  CustomCategory="Capture and Save to Clipboard" 
+                      Arguments="/a" 
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="260"/>
+			<JumpTask Title="Selected Regeon" 
+					  CustomCategory="Capture and Save to Clipboard"
+                      Arguments="/r"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="288"/>
+			
+			<JumpTask Title="Desktop" 
+					  CustomCategory="Capture and Save to Disk"
+                      Arguments="/D"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="105"/>
+			<!--
+			<JumpTask Title="Active Window"
+					  CustomCategory="Capture and Save to Disk" 
+                      Arguments="/A" 
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="260"/>
+			<JumpTask Title="Selected Regeon to Disk" 
+					  CustomCategory="Capture and Save to Disk"
+                      Arguments="/R"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="288"/>
+			-->
+			<JumpTask Title="Save Clipboard Image to Folder" 
+					  CustomCategory="Other Tasks"
+                      Arguments="/s"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="23"/>
+			<JumpTask Title="Open Screenshot Folder" 
+					  CustomCategory="Other Tasks"
+                      Arguments="/o"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="4"/>
+			<JumpTask Title="Edit Settings"
+					  CustomCategory="Other Tasks"
+					  IconResourcePath="%systemroot%\system32\imageres.dll" 
+					  IconResourceIndex="63"/>
+		</JumpList>
+	</JumpList.JumpList>
+</Application>

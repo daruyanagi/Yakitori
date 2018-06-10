@@ -8,18 +8,30 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Yakitori.Properties {
+namespace Yakitori.WPF.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.1.0.0")]
-    public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.7.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
         
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool IsCountDownEnabled {
+            get {
+                return ((bool)(this["IsCountDownEnabled"]));
+            }
+            set {
+                this["IsCountDownEnabled"] = value;
             }
         }
         
@@ -38,24 +50,12 @@ namespace Yakitori.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool IsCountDownEnabled {
+        public bool IsSoundEffectEnabled {
             get {
-                return ((bool)(this["IsCountDownEnabled"]));
+                return ((bool)(this["IsSoundEffectEnabled"]));
             }
             set {
-                this["IsCountDownEnabled"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool IsNotificationEnabled {
-            get {
-                return ((bool)(this["IsNotificationEnabled"]));
-            }
-            set {
-                this["IsNotificationEnabled"] = value;
+                this["IsSoundEffectEnabled"] = value;
             }
         }
     }
