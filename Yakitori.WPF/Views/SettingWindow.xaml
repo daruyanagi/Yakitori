@@ -65,7 +65,7 @@
 						  Unchecked="Value_Changed" />
 				<TextBox Text="{Binding Source={x:Static p:Settings.Default}, Path=Count, Mode=TwoWay}"
 						 TextChanged="TextBox_TextChanged"/>
-				<TextBlock Text="minutes." />
+				<TextBlock Text="seconds." />
 			</StackPanel>
 
 			<CheckBox Content="Play sound after you take a screenshot." 
